@@ -12,8 +12,10 @@ This code uses MPI libraries,therefore they should be installed first on your lo
 ## Code compilation instruction for mac/linux
 1. Download the code and open the terminal. cd to the source folder.
 
-2. type $make  on your terminal and it should create the exectuble named "main". Ideally it should be compiled without error. However, if you end up getting error "FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!"
-". Copy the following lines on your terminal:
+2. type $make  on your terminal and it should create the exectuble named "main". Ideally it should be compiled without error. However, if you get the following error:
+"FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!"
+
+Copy the following lines on your terminal:
 directory_to_remove=/opt/local/bin
 PATH=:$PATH:
 PATH=${PATH//:$directory_to_remove:/:}
