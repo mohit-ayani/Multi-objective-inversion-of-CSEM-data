@@ -16,9 +16,12 @@ This code uses MPI libraries,therefore they should be installed first on your lo
 "FATAL:/opt/local/bin/../libexec/as/x86_64/as: I don't understand 'm' flag!"
 
  Copy the following lines on your terminal:
- directory_to_remove=/opt/local/bin \n
- PATH=:$PATH: \n
- PATH=${PATH//:$directory_to_remove:/:} \n
+ directory_to_remove=/opt/local/bin 
+ 
+ PATH=:$PATH: 
+ 
+ PATH=${PATH//:$directory_to_remove:/:} 
+ 
  PATH=${PATH#:}; PATH=${PATH%:}
  
  Then type $make and it should be good to go.
