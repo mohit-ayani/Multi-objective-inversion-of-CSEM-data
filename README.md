@@ -27,7 +27,7 @@ This code uses MPI libraries,therefore they should be installed first on your lo
  
   Then type $make and it should be good to go.
 
-3. type $mpirun -np 4 ./main ( You can use more than 4 cores if you are running in on the cluster to speed up the  performance)
+3. type $mpirun -np 4 ./main ( You can use more than 4 cores if you are running in on the cluster to speed up the  performance. Make sure that this value should be a multiple of 4 for optimized performance)
 
 ### input files to the executable
 RUNFILE: this file contains all the input parameters like Transmitter co-ordinates, No of frequencies used, no of layers and their corresponding resistivity values.
