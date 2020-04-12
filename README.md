@@ -1,4 +1,4 @@
-# Multi-objective-inversion-of-CSEM-data
+# Multi objective inversion of CSEM-data
 
 This repository contains the source code for implementing the multi-objective inversion of CSEM data using Non dominated sorting genetic algorithms (NSGA-II).
 
