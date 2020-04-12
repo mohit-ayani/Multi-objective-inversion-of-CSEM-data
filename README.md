@@ -12,7 +12,7 @@ This code uses MPI libraries,therefore they should be installed first on your lo
 ## Code compilation instruction for mac/linux
 Download the code and open the terminal. cd to the source folder
 type $make  on your terminal and it should create the exectuble named "main"
-type $mpirun -np 4 ./main
+type $mpirun -np 4 ./main ( You can use more than 4 cores if you are running in on the cluster to speed up the  performance)
 
 ### input files to the executable
 RUNFILE: this file contains all the input parameters like Transmitter co-ordinates, No of frequencies used, no of layers and their corresponding resistivity values.
